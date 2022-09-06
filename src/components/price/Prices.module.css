@@ -1,0 +1,93 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.btn1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.btn1 button {
+  width: 30%;
+  height: auto;
+  padding: 10px 40px;
+  cursor: pointer;
+  background: rgba(14, 33, 9, 0.912);
+  color: white;
+  font-family: sans-serif;
+  border: 1px solid black;
+  outline: none;
+  font-size: 16px;
+  transition: 1s;
+  border-radius: 7px;
+  margin-bottom: 40px;
+}
+.btn1 button:hover {
+  background: black;
+}
+
+.price2 {
+  display: block;
+}
+.container {
+  width: 100%;
+  padding: 20px 0;
+  display: block;
+  text-align: center;
+  margin-bottom: 60px;
+  cursor: pointer;
+  transition: 1s;
+}
+.container h1 {
+  font-weight: 500;
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-bottom: 40px;
+}
+.container h2 {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-bottom: 40px;
+  color: rgb(98, 98, 98);
+}
+.container button {
+  width: 15%;
+  height: auto;
+  padding: 4px 70px;
+  cursor: pointer;
+  background: rgb(74, 19, 25);
+  color: white;
+  font-family: sans-serif;
+  border: 1px solid black;
+  outline: none;
+  font-size: 16px;
+  transition: 1s;
+  border-radius: 7px;
+  margin-bottom: 40px;
+}
+.container button:hover {
+  transition: 1s;
+  background: black;
+}
+.container:hover {
+  background: rgb(5, 17, 54);
+  color: white;
+  transform: scale(1.1);
+}
+@media (max-width: 380px) {
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+}
+
