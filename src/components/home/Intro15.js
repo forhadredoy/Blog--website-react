@@ -21,7 +21,7 @@ function Home15() {
       <div className="text">
         
         <p>The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
-        <h2>Sanjana Afrin Ishpa</h2>
+        <h2>Mickel jonson</h2>
 
         <div className="btn">
           <button>Profile</button>
@@ -49,7 +49,7 @@ function Home15() {
 <div className="text">
   
   <p>The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
-  <h2>Sanjana Afrin Ishpa</h2>
+  <h2>Hanre nichols</h2>
 
   <div className="btn">
     <button>Profile</button>
@@ -77,7 +77,7 @@ function Home15() {
 <div className="text">
   
   <p>The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
-  <h2>Sanjana Afrin Ishpa</h2>
+  <h2>Marco rashpord</h2>
 
   <div className="btn">
     <button>Profile</button>
