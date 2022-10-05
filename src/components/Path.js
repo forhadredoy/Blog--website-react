@@ -30,11 +30,12 @@ export default function Path() {
       
         <Route path="/" element ={<Navigate to ="/home"/>}/>
         <Route path="/home" element={<Home/>} />
-        <Route path="/reviews" element={<Reviews/>} />
-        <Route path="/prices" element={<Prices/>} />
-        <Route path="/apple" element={<Apple/>} />
-        <Route path= "/videos" element={<Videos/>}/>
-        <Route path="/more" element ={<More/>}/>
+        <Route path="/top" element={<Reviews/>} />
+        <Route path="/service" element={<Prices/>} />
+        <Route path="/gellary" element={<Apple/>} />
+        <Route path= "/package" element={<Videos/>}/>
+        <Route path="/blog" element ={<More/>}/>
+        <Route path="/contact" element ={<More/>}/>
   
        
         

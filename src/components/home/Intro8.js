@@ -1,29 +1,53 @@
+
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import imac from '../img/imac55.jpg';
-import iphone from '../img/iphnnnn.jpg';
-import ipad from '../img/ippppp.jpg';
+import one from '../img/band1.jpg';
+import two from '../img/band2.jpg';
+import three from '../img/band3.jpg';
+import four from '../img/band4.jpg';
+import five from "../img/band5.jpg";
 import Home from './Home.module.css';
 
 function Intro8() {
     return (
-        <div className={Home.intro8}>
 
-            <div className={Home.container6}>
-                
-                <img src={iphone}/>
-                <img src={imac}/>
-                <img src={ipad}/>
+   <div className={Home.main3}>
+    <h1> Our Bands</h1>
+       <div className={Home.container6}>
+        <div className={Home.item7}>
 
-            </div>
+            <img src={one}/>
 
-            <div className={Home.container61}>
-                <h1>Privacy that Apple</h1>
-                <NavLink to='#' className={Home.navl4}>Learn more</NavLink>
-
-            </div>
-            
         </div>
+          <div className={Home.item7}>
+
+            <img src={two}/>
+
+        </div>
+
+        <div className={Home.item7}>
+
+            <img src={three}/>
+
+        </div>
+          <div className={Home.item7}>
+
+            <img src={four}/>
+
+        </div>
+
+          <div className={Home.item7}>
+
+            <img src={five}/>
+
+        </div>
+
+
+      </div>
+
+        
+
+   </div>
+          
     );
 }
 

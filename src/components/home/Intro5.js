@@ -1,30 +1,64 @@
-import React from 'react';
-import { NavLink } from "react-router-dom";
-import iphone from '../Video/Iphone.mp4';
-import Home from "./Home.module.css";
+import one from '../img/101.png';
+import two from '../img/102.png';
+import three from '../img/103.png';
+import four from '../img/104.png';
+import five from '../img/14.jpg';
+import Home from './Home.module.css';
 
 function Intro5() {
     return (
 
-        
-        <div className={Home.intro5}>
-            <div className={Home.videos}>
-            <video width="80%" height="auto" loop autoPlay muted preload="auto">
-               <source src={iphone} type="video/mp4"/>
-            </video>
-            </div>
+        <div className={Home.container4}>
+            <div className={Home.item4}>
+
+                <div className={Home.element1}>
+                    <img src={one}/>
+                    <h2>Activities</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga veniam similique deserunt veritatis placeat itaque</p>
+                   
             
-            <div className={Home.content3}>
-            <NavLink to='#' className={Home.navl2}> The Fastest cheap a smart phone</NavLink>
-                <h1 className={Home.head}>the best</h1>
-                <h1 className={Home.head1}>Bettery life</h1>
-                <h1 className={Home.head2}>Ever on</h1>
-                <h1 className={Home.head3}>Iphone</h1>
+                </div>
+
+                <div className={Home.element1}>
+                    <img src={two}/>
+                    <h2>Travel Arrangements</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga veniam similique deserunt veritatis placeat itaque</p>
+                   
+            
+                </div>
+
+                <div className={Home.element1}>
+                    <img src={three}/>
+                    <h2>Private Guide</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga veniam similique deserunt veritatis placeat itaque</p>
+                   
+            
+                </div>
+
+
+                
+                <div className={Home.element1}>
+                    <img src={four}/>
+                    <h2>Location Manager</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga veniam similique deserunt veritatis placeat itaque</p>
+                   
+            
+                </div>
+
+
+
+
+
+
             </div>
 
-            
+            <div className={Home.item5}>
+                <img src={five}/>
+
             </div>
-            
+
+        </div>
+       
        
     );
 }

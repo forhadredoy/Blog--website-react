@@ -1,73 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=JetBrains+Mono:wght@200&family=Open+Sans&family=Poppins:wght@400&family=Roboto:wght@300&display=swap");
+
 * {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   margin: 0;
   padding: 0;
 }
 
-.nav ul {
-  background: rgb(41, 41, 41);
-  display: flex;
-  list-style-type: none;
+nav {
+  height: auto;
+  width: 100%;
+  background: rgb(21, 24, 30);
+  padding: 30px;
+}
+.items {
+  width: 100%;
+  height: auto;
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.nav ul li {
-  padding: 11px 0;
-  margin-right: 20px;
+.items li {
+  list-style: none;
+  padding: 0px 20px;
+  transition: 0.8s;
 }
-.nav ul li a {
+.items li a {
   text-decoration: none;
-  font-size: 13px;
-  font-family: opens, sans-serif;
-  color: rgb(199, 185, 185);
-  cursor: pointer;
-  transition: 1s;
-  padding: 12px 22px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(208, 208, 208);
 }
-.nav ul li a:hover {
-  color: rgb(255, 255, 255);
+.subitems {
+  position: absolute;
+  display: none;
+  min-width: 130px;
+  background: black;
+  margin-top: 23px;
+  padding: 5px 0;
 }
-@media (max-width: 600px) {
-  .nav {
-    width: 150%;
-  }
-  .nav ul {
+.subitems li {
+  padding: 16px 28px;
+  transition: 0.8s;
+}
+.subitems li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(208, 208, 208);
+}
+.subitems li:hover {
+  background: rgb(36, 0, 0);
+}
+.items li:hover .subitems {
+  display: block;
+  transition: 2s;
+}
+.font {
+  color: white;
+  display: none;
+}
+@media (max-width: 767px) {
+  .font {
     display: block;
-    justify-content: center;
-    align-items: center;
-  }
-  .nav ul li a {
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
     margin-left: 20px;
   }
-  .nav ul li:hover {
-    width: 100%;
-    background: rgb(115, 109, 109);
+  .items {
+    display: block;
+    height: auto;
+    margin-top: 20px;
   }
-}
-@media screen and (max-width: 600px) and(max-width:768) {
-  .nav {
-    width: 150%;
-  }
-  .nav li {
+  .items li {
+    text-align: left;
+    margin-top: 30px;
     width: 100%;
   }
-}
-@media screen and (max-width: 769px) and(max-width:1024) {
-  .nav {
-    width: 150%;
-  }
-  .nav ul {
-    width: 100%;
-  }
-}
-@media (min-width: 1024) {
-  .nav {
-    width: 150%;
-  }
-  .nav ul li a {
+
+  .items li ul {
+    position: relative;
     width: 100%;
   }
 }

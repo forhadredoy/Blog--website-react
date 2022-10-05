@@ -1,52 +1,49 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import ipad1 from '../img/ipad1.jpg';
-import ipad2 from '../img/ipad3.jpg';
-import ipad3 from '../img/ipad5.jpg';
+import six from '../img/06.jpg';
+import seven from '../img/07.jpg';
+import nine from '../img/09.jpg';
 import Home from './Home.module.css';
+
 function Intro3() {
     return (
-        <div className={Home.intro3}>
 
+        <div className={Home.main2}>
+            <h3>Tour gellary</h3>
+            <h1>Best Tourist Place</h1>
             <div className={Home.container2}>
-                <img src={ipad1}/>
-            <div className={Home.btn1}>
-                <button>ABout Ipad1</button>
-            </div>
-            <div className={Home.navl}>
-            <NavLink to="#" className={Home.navlink1}>Learn more</NavLink>
 
-            </div>
-          
-            </div>
+<div className={Home.item2} id={Home.one}>
+<img src={six}/>
+<div className={Home.overlay}>
+<div className={Home.text}>ebla, Germany</div>
+</div>
 
 
-            <div className={Home.container2}>
-                <img src={ipad2}/>
-            <div className={Home.btn1}>
-                <button>About Ipad2</button>
-            </div>
-            <div className={Home.navl}>
-            <NavLink to="#" className={Home.navlink1}>Learn more</NavLink>
+</div>
 
-            </div>
-            </div>
-            
+<div className={Home.item2} id={Home.two}>
+<img src={seven}/>   <div className={Home.overlay}>
+<div className={Home.text}>Excute, Netherland</div>
+</div>
+</div>
 
-            <div className={Home.container2}>
-                <img src={ipad3}/>
-            <div className={Home.btn1}>
-                <button>About Ipad3</button>
-            </div>
-            <div className={Home.navl}>
-            <NavLink to="#" className={Home.navlink1}>Learn more</NavLink>
 
-            </div>
-            </div>
-            
 
-            
+<div className={Home.item2} id={Home.three}>
+<img src={nine}/>
+<div className={Home.overlay}>
+<div className={Home.text}>Apm, Swizerland</div>
+</div>
+</div>
+
+
+</div>
         </div>
+
+        
+       
+
+          
     );
 }
 
